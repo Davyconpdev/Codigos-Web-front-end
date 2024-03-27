@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(yellow, red, blue);
+}
+
+h1 {
+    color: rgb(153, 6, 8);
+    font-size: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+hr {
+    width: 50%;
+    height: 17px;
+    background: rgb(149, 233, 39);
+}
+
+p {
+    width: 50%;
+    margin: auto;
+    color: rgb(rgb(92, 6, 6), green, blue);
+}
+
+img {
+    width: 300px;
+    height: 225px;
+}
+
+.caixaimagem {
+    width: fit-content;
+    margin: auto;
+    padding: 7px;
+}
+
+#vidmario {
+    width: 50%;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+}
