@@ -1,0 +1,20 @@
+body{
+background: rgb(252, 238, 211);
+height: 100vh;
+display: flex;
+align-items: start;
+justify-content: right;
+}
+
+img{
+width: 90px;
+height: 90px;
+}
+
+.claro{
+    background: linear-gradient(cyan,rgb(255, 174, 0));
+}
+
+.escuro{
+    background: linear-gradient(darkblue,black);
+}
