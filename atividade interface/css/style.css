@@ -1,0 +1,112 @@
+/* Desktop - Responsividade */
+:root{
+    --caput-mortuum: rgb(122, 39, 22);
+    --jet: rgb(12, 92, 68);
+    --black: rgb(14, 19, 19);
+    --chamoisee: #9C715Aff;
+    --eerie: rgb(29, 29, 219);
+    --eerie-black: #202021ff;
+    --khaki: rgb(202, 194, 187);
+    --bole: #623C2Dff;
+    --bistre: #312621ff;
+}
+
+@font-face {
+    font-family: font;
+    src: url(/image/PirataOne-Regular.ttf)
+}
+
+body{
+    background-image: url(/image/images-10.jpg.crdownload);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.central{
+    background: var(--khaki);
+    height: 670px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+img{
+    width: 270px;
+    border-radius: 50%;
+    border: 3px solid var(--jet);
+}
+
+hr{
+    height: 3px;
+    width: 77%;
+    background-color: var(--bistre);
+    border-radius: 5px;
+}
+
+h1{
+    color: var(--black);
+    font-family: font;
+    font-weight: 700;
+}
+
+h2{
+    color: var(--black);
+    font-family: font;
+    font-weight: 700;
+}
+
+span{
+    color: var(--eerie);
+    font-family: font;
+    font-weight: 377;
+    font-size: 17px;
+}
+
+#insta{
+    padding-right: 17px; 
+    padding-bottom: 10px;
+}
+
+#whats{
+    padding-left: 7px;
+}
+
+#what{
+    width: 20px;
+    border: none;
+}
+
+#inst{
+    width: 37px;
+    border: none;
+}
+
+
+/*Tablet - Responsividade */
+@media(max-width:1024px) and (min-width:720px) {
+    body{
+        background: var(--chamoisee);
+        width: 100vh;
+        height: 500px;
+    }
+
+    .central{
+        width: 50%;
+    }
+}
+
+/*Mobile - Responsividade */
+@media(max-width:720px) {
+    body{
+        background: var(--jet);
+    }
+
+    .central{
+        width: 70%;
+    }
+}
